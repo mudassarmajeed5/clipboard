@@ -95,6 +95,13 @@
         width: 70vw;
         margin: auto;
     }
+    .img img{
+        background-image: url(images/bg-header-mobile.png);
+        height: 100vh;
+        background-attachment:fixed;
+        background-position: center;
+        background-size: cover;
+    }
 
 
     
