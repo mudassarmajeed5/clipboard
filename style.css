@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Poppins",sans-serif;
+}
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img img{
+    width: 100%;
+}
+.front-page{
+    margin: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.front-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: lime;
+    font-weight: bolder;
+}
+.front-logo span{
+    list-style: none;
+    border: 2px solid lime;
+    border-radius: 100%;
+    padding: 0px;
+}h1{
+    padding: 10px 0px;
+    font-size: 30px;
+}
+.front-page p,.p 
+{
+    margin: auto;
+    font-size: 16px;
+    width: 60vw;
+    text-align: center;
+    color: gray;
+}
+.button{
+    display: flex;
+    margin: 10px 20px;
+}
+.button button:first-child{
+    color: white;
+    background-color: green;
+
+}
+
+.button button{
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    margin: 0px 5px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 80%;
+}
+.second-page h2{
+    text-align: center;
+}
+.grid{
+    margin: 80px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.computer{
+    width: 100%;
+    text-align: center;
+}
+.computer img{
+    width: 80%;
+}
+.right h3{
+    padding: 10px 0px;
+}
+.right p{
+    width: 80%;
+    color: gray;
+}
+.third-page h1{
+    text-align: center;
+}
+.devices{
+    padding: 30px 0px;
+    width: 50vw;
+    margin: 0 auto;
+}
+.devices img{
+    width: 100%;
+}
+@media only screen and (max-width : 767px){
+    h1{
+        text-align: center;
+        font-size: 25px;
+        width: 70vw;
+    }
+    .front-page p,.p{
+        width: 70vw;
+        font-weight: lighter;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+    }
+    .button button{
+        margin: 5px 0px;
+    }
+    .second-page h2{
+        margin: 0 auto;
+        width: 70vw;
+    }
+    .right p {
+        width: 100%;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+        padding: 15px;
+        text-align: center;
+    }
+    .third-page h1{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .devices{
+        width: 90vw;
+        margin: 20px auto;
+    }
+}
